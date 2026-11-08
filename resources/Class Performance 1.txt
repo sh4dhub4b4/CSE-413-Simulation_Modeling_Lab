@@ -1,0 +1,143 @@
+﻿Submission Mode: Upload .ipynb file to Google Classroom
+________________
+
+
+✅ Tasks to Complete:
+1. Advanced Scalar & Array Operations
+Task:
+Perform mathematical operations using a scalar and a custom 1D array.
+Requirements:
+* Use a scalar value (example: scalar = 4.3)
+* Create a 1D array containing at least 8 elements with floating-point values.
+* Perform and display results of:
+Arithmetic Operations:
+* Addition with scalar
+* Subtraction with scalar
+* Multiplication with scalar
+* Division with scalar
+* Power operation
+Mathematical Functions:
+* Square root
+* Absolute value
+* Exponential function
+* Natural logarithm
+* Logarithm base 10
+Trigonometric Functions:
+* sin()
+* cos()
+* tan()
+* arcsin()
+* arccos()
+* arctan()
+Notes:
+* Display outputs for all operations.
+* Use clipping before applying arcsin() and arccos() to avoid invalid values.
+Example:
+np.clip(array, -1, 1)
+
+
+________________
+
+
+2. Matrix Mathematical Operations
+Task:
+Apply mathematical operations on a custom 4×3 matrix.
+Instructions:
+* Create a 4×3 matrix with your own floating-point values.
+* The matrix should contain both positive and negative values.
+Perform and display:
+Trigonometric Operations:
+* sin()
+* cos()
+* tan()
+Inverse Trigonometric Operations:
+* arcsin()
+* arccos()
+* arctan()
+Exponential & Logarithmic Operations:
+* exp()
+* log()
+* log10()
+Other Mathematical Operations:
+* Absolute value
+* Square root
+* Square
+* Cube root
+Rounding and Remainder Operations:
+* Remainder when divided by 3
+* round()
+* floor()
+* ceil()
+Note:
+Handle negative values properly before applying logarithm and square-root functions.
+________________
+
+
+3. Matrix Statistics and Analysis
+Task:
+Create a 3×4 matrix using random floating-point values.
+Example:
+np.random.uniform(-10,10,(3,4))
+
+
+Perform and display:
+Basic Statistics:
+* Maximum value
+* Minimum value
+* Index position of maximum value
+* Index position of minimum value
+* Sum of all elements
+* Product of all elements
+* Mean
+* Median
+* Variance
+* Standard deviation
+Row and Column Analysis:
+Find:
+* Sum of each row
+* Sum of each column
+* Maximum value from each row
+* Minimum value from each column
+________________
+
+
+4. Matrix Sorting and Searching Operations
+Task:
+Create a 4×4 integer matrix using random values.
+Example:
+np.random.randint(-20,20,(4,4))
+
+
+Perform the following operations:
+Sorting:
+* Sort each row in ascending order
+* Sort each row in descending order
+* Sort the entire matrix in ascending order
+* Sort the entire matrix in descending order
+Finding Elements:
+Display:
+* Five largest values in the matrix
+* Five smallest values in the matrix
+* Positions of elements greater than the matrix mean
+* Count of positive values
+* Count of negative values
+* Count of zero values
+Hint:
+Use:
+np.sort()
+np.flatten()
+np.where()
+
+
+________________
+
+
+✅ Submission Checklist:
+Before submission:
+✔ All code cells run without errors.
+✔ Outputs are clearly visible.
+✔ Add comments explaining important code sections.
+✔ Handle mathematical errors properly.
+✔ Use meaningful variable names.
+✔ The notebook file should follow this format:
+SIM_CP1_YourName_StudentID.ipynb
